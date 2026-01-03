@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>
@@ -17,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <title>Hemang Krish | Data & ML Portfolio</title>
+
+    <meta
+      name="keywords"
+      content="Hemang Krish, Data Analyst, Machine Learning, AI, Portfolio"
+    />
+    <meta
+      name="description"
+      content="Hemang Krish | Data Analyst, Machine Learning Engineer, AI Researcher"
+    />
 
     <link
       rel="stylesheet"
@@ -33,64 +26,57 @@
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
-
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
 
-    <!-- **** Hero Section **** -->
+    <!-- HERO -->
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, myself <span class="text-color-main">Hemang Krish</span>
+          Hi, I'm <span class="text-color-main">Hemang Krish</span>
           <br />
-          I'm a frontend Web Developer.
+          Data Analyst | Machine Learning Engineer | AI Researcher
         </h1>
         <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
-          >
+          <a class="cta-btn cta-btn--hero" href="#projects">View Projects</a>
         </p>
       </div>
     </section>
-    <!-- /END Hero Section -->
 
-    <!-- **** About Section **** -->
+    <!-- ABOUT -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
+        <h2 class="section-title load-hidden">About Me</h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
               <img
                 alt="Profile Image"
                 class="img-fluid rounded shadow-lg"
-                height="auto"
                 width="300px"
-                src="./hemang.jpeg"
-                alt="Profile Image"
+                src="assets/hemang.jpeg"
               />
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
+                I am a Computer Engineering graduate from Delhi Technological
+                University with strong experience in data analytics, machine
+                learning, and applied AI.
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                I build predictive models, perform exploratory data analysis,
+                and develop data-driven applications using Python, SQL,
+                Scikit-learn, TensorFlow, Tableau, and Streamlit.
               </p>
               <span class="d-flex mt-3">
                 <a
-                  rel="noreferrer"
-                  target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="assets/Hemang_Krish_Resume.pdf"
+                  target="_blank"
                 >
                   View Resume
                 </a>
@@ -100,249 +86,187 @@
         </div>
       </div>
     </section>
-    <!-- /END About Section -->
 
-    <!-- **** Projects Section **** -->
+    <!-- PROJECTS -->
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
-          <!-- Notice: each .row is a project -->
+          <!-- DATA PROJECT 1 -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">RoboFriends</h3>
-                <div>
-                  <p class="mb-4">
-                    RoboFriends is a React based mini-project which is just a fun app to play with some random robos searched down through API.
-                    It was quite enjoyable for my first work in React through JSX file and You can search for the RoboNames and you will get the result.
-                  </p>
-                </div>
+                <h3>Heart Disease Prediction & Risk Analysis</h3>
+                <p class="mb-4">
+                  Analyzed 300+ patient clinical records to identify key
+                  cardiovascular risk factors and built ML models achieving
+                  ~85% accuracy for early risk detection.
+                </p>
                 <a
-                  rel="noreferrer"
-                  target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
+                  href="https://github.com/hemangkrish7/heart_disease_prediction"
                   target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
                 >
-                  Source Code
+                  GitHub
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/new1.png"
-                    />
-                  </div>
-                </a>
-              </div>
+              <img
+                class="img-fluid"
+                src="assets/heart_project.png"
+                alt="Heart Disease Project"
+              />
             </div>
           </div>
-          <!-- /END Project -->
 
-          <!-- Notice: each .row is a project -->
+          <!-- DATA PROJECT 2 -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Restaurant Menu 1</h3>
-                <div>
-                  <p class="mb-4">
-                   Menu Display: Browse through an extensive list of menu items with descriptions, prices, and images.
-                    Category Filtering: Easily filter menu items by categories such as starters, mains, desserts, and beverages.
-                     Search Functionality: Search for specific menu items using keywords.
-                    Responsive Design: Enjoy a seamless experience on various devices, including desktops, tablets, and smartphones.
-                    Video Integration: Enhance your browsing experience with a looping video showcasing our culinary offerings.
-                  </p>
-                </div>
+                <h3>Data Scientist Salary Prediction</h3>
+                <p class="mb-4">
+                  Built a regression-based ML system on 1,000+ Glassdoor job
+                  listings with feature engineering and Random Forest achieving
+                  lowest error (NRMSE: 17.6).
+                </p>
                 <a
-                  rel="noreferrer"
-                  target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://restaurantfood-github-io.vercel.app/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
+                  href="https://github.com/hemangkrish7/data-scientist-salary-prediction"
                   target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/hemangkrish7/restaurantfood.github.io"
                 >
-                  Source Code
+                  GitHub
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project1.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
+              <img
+                class="img-fluid"
+                src="assets/salary_project.png"
+                alt="Salary Prediction Project"
+              />
             </div>
           </div>
-          <!-- /END Project -->
 
-          /*<!-- Notice: each .row is a project -->
-          <!--<div class="row">
+          <!-- DATA PROJECT 3 -->
+          <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
+                <h3>Customer Churn Analysis & Dashboard</h3>
+                <p class="mb-4">
+                  Performed end-to-end churn analysis using Python, SQL, and
+                  Tableau, identifying customer segments with churn rate over
+                  51%.
+                </p>
                 <a
-                  rel="noreferrer"
-                  target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
+                  href="https://github.com/hemangkrish7/Telecom_Churn_Analysis"
                   target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
                 >
-                  Source Code
+                  Dashboard
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
+              <img
+                class="img-fluid"
+                src="assets/churn_project.png"
+                alt="Churn Project"
+              />
+            </div>
+          </div>
+
+          <!-- DEV PROJECT 1 -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3>AI Resume Critiquer (LLM-powered)</h3>
+                <p class="mb-4">
+                  Developed a Streamlit web app using Google Gemini LLM to
+                  analyze resumes and provide structured, actionable feedback.
+                </p>
+                <a
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/hemangkrish7/AI-Resume-Critiquer"
+                  target="_blank"
+                >
+                  Live
                 </a>
               </div>
             </div>
+            <div class="col-lg-8 col-sm-12">
+              <img
+                class="img-fluid"
+                src="assets/resume_ai.png"
+                alt="AI Resume Critiquer"
+              />
+            </div>
           </div>
-          <!-- /END Project -->
+
+          <!-- DEV PROJECT 2 -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3>Real-Time IoT Dashboard</h3>
+                <p class="mb-4">
+                  Built a real-time AWS IoT dashboard to monitor and control
+                  connected devices with latency under 2 seconds.
+                </p>
+                <a
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/hemangkrish7"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <img
+                class="img-fluid"
+                src="assets/iot_project.png"
+                alt="IoT Dashboard"
+              />
+            </div>
+          </div>
         </div>
       </div>
-    </section> 
-    <!-- /END Projects Section -->
+    </section>
 
-    <!-- **** Contact Section **** -->
+    <!-- CONTACT -->
     <section id="contact">
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[+91-7428093119]</p>
+          <p class="contact-wrapper__text">📧 hemangkrish7@gmail.com</p>
           <a
-            rel="noreferrer"
-            target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:rajeshhemang007@gmail.com"
-            >Call to Action</a
+            href="mailto:hemangkrish7@gmail.com"
           >
+            Contact Me
+          </a>
         </div>
       </div>
     </section>
-    <!-- /END Contact Section -->
 
-    <!-- **** Footer Section **** -->
+    <!-- FOOTER -->
     <footer class="footer navbar-static-bottom">
       <div class="container">
-        <a rel="noreferrer" href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a href="https://linkedin.com/in/hemang-krish-a739a1229" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a href="https://github.com/hemangkrish7" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
-
         <hr />
-
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
-          @2022 Copyrights
-          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
-            >Hemang Krish</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
+          © 2026 Hemang Krish
         </p>
       </div>
     </footer>
-    <!-- /END Footer Section -->
 
     <script defer type="module" src="index.js"></script>
   </body>
