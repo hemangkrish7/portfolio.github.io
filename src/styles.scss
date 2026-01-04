@@ -41,3 +41,32 @@
 .project-row {
   margin-bottom: 7rem;
 }
+#projects .section-title {
+  margin-bottom: 6.5rem;
+}
+/* =========================
+   Project Image Card Style
+   ========================= */
+
+.project-image {
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  padding: 12px;
+  background: #fff;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-image img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.project-image:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+}
+.project-image {
+  border: 2px solid #272341;
+}
