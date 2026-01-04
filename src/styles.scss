@@ -16,3 +16,28 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+ 
+/* ---- Project Heading Separation ---- */
+
+.project-header {
+  margin-bottom: 1.2rem;
+}
+
+.project-title {
+  font-size: 1.9rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #272341;
+  margin-bottom: 0.3rem;
+}
+
+.project-description {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* Space between projects */
+.project-row {
+  margin-bottom: 7rem;
+}

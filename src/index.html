@@ -22,6 +22,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styles.scss" />
+
     <script
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
@@ -55,7 +56,7 @@
               <img
                 alt="Profile Image"
                 class="img-fluid rounded shadow-lg"
-                width="300px"
+                width="300"
                 src="assets/hemang.jpeg"
               />
             </div>
@@ -93,12 +94,14 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
-          <!-- DATA PROJECT 1 -->
-          <div class="row">
+          <!-- PROJECT 1 -->
+          <div class="row project-row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3>Heart Disease Prediction & Risk Analysis</h3>
-                <p class="mb-4">
+                <h3 class="project-title">
+                  Heart Disease Prediction & Risk Analysis
+                </h3>
+                <p>
                   Analyzed 300+ patient clinical records to identify key
                   cardiovascular risk factors and built ML models achieving
                   ~85% accuracy for early risk detection.
@@ -121,12 +124,14 @@
             </div>
           </div>
 
-          <!-- DATA PROJECT 2 -->
-          <div class="row">
+          <hr class="project-divider" />
+
+          <!-- PROJECT 2 -->
+          <div class="row project-row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3>Data Scientist Salary Prediction</h3>
-                <p class="mb-4">
+                <h3 class="project-title">Data Scientist Salary Prediction</h3>
+                <p>
                   Built a regression-based ML system on 1,000+ Glassdoor job
                   listings with feature engineering and Random Forest achieving
                   lowest error (NRMSE: 17.6).
@@ -149,40 +154,59 @@
             </div>
           </div>
 
-          <!-- DATA PROJECT 3 -->
-          <div class="row">
+          <hr class="project-divider" />
+
+          <!-- PROJECT 3 -->
+          <div class="row project-row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3>Customer Churn Analysis & Dashboard</h3>
-                <p class="mb-4">
+                <h3 class="project-title">
+                  Customer Churn Analysis & Dashboard
+                </h3>
+                <p>
                   Performed end-to-end churn analysis using Python, SQL, and
                   Tableau, identifying customer segments with churn rate over
                   51%.
                 </p>
-                <a
-                  class="cta-btn cta-btn--hero"
-                  href="https://github.com/hemangkrish7/Telecom_Churn_Analysis"
-                  target="_blank"
-                >
-                  Dashboard
-                </a>
+                <div class="project-buttons">
+  <a
+    class="cta-btn cta-btn--hero"
+    href="https://public.tableau.com/views/Churn_Analysis_Dashboard_17579362720530/CustomerChurnanalysis"
+    target="_blank"
+  >
+    Dashboard
+  </a>
+
+  <a
+    class="cta-btn cta-btn--hero cta-btn--secondary"
+    href="https://github.com/hemangkrish7/Telecom_Churn_Analysis"
+    target="_blank"
+  >
+    GitHub
+  </a>
+</div>
+
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <img
                 class="img-fluid"
                 src="assets/churn_project.png"
-                alt="Churn Project"
+                alt="Customer Churn Project"
               />
             </div>
           </div>
 
-          <!-- DEV PROJECT 1 -->
-          <div class="row">
+          <hr class="project-divider" />
+
+          <!-- PROJECT 4 -->
+          <div class="row project-row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3>AI Resume Critiquer (LLM-powered)</h3>
-                <p class="mb-4">
+                <h3 class="project-title">
+                  AI Resume Critiquer (LLM-powered)
+                </h3>
+                <p>
                   Developed a Streamlit web app using Google Gemini LLM to
                   analyze resumes and provide structured, actionable feedback.
                 </p>
@@ -200,33 +224,6 @@
                 class="img-fluid"
                 src="assets/resume_ai.png"
                 alt="AI Resume Critiquer"
-              />
-            </div>
-          </div>
-
-          <!-- DEV PROJECT 2 -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3>Real-Time IoT Dashboard</h3>
-                <p class="mb-4">
-                  Built a real-time AWS IoT dashboard to monitor and control
-                  connected devices with latency under 2 seconds.
-                </p>
-                <a
-                  class="cta-btn cta-btn--hero"
-                  href="https://github.com/hemangkrish7"
-                  target="_blank"
-                >
-                  GitHub
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <img
-                class="img-fluid"
-                src="assets/iot_project.png"
-                alt="IoT Dashboard"
               />
             </div>
           </div>
@@ -254,7 +251,10 @@
     <footer class="footer navbar-static-bottom">
       <div class="container">
         <div class="social-links">
-          <a href="https://linkedin.com/in/hemang-krish-a739a1229" target="_blank">
+          <a
+            href="https://linkedin.com/in/hemang-krish-a739a1229"
+            target="_blank"
+          >
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
           <a href="https://github.com/hemangkrish7" target="_blank">
@@ -262,12 +262,10 @@
           </a>
         </div>
         <hr />
-        <p class="footer__text">
-          © 2026 Hemang Krish
-        </p>
+        <p class="footer__text">© 2026 Hemang Krish</p>
       </div>
     </footer>
 
-    <script defer type="module" src="index.js"></script>
+    <script type="module" src="index.js"></script>
   </body>
 </html>
